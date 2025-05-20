@@ -10,7 +10,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "@glass | Senior Software Engineer",
   description:
-    "Portfolio of @glass, a Senior Software Engineer specializing in JavaScript, TypeScript, React.js, Node.js, Laravel, and AWS.",
+    "Portfolio of @glass, a Senior Software Engineer specializing in JavaScript, TypeScript, React.js, Node.js, Python, AWS, Redis, and much more.",
 }
 
 export default function Home() {

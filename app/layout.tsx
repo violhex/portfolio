@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     url: "https://nexuus.win",
     title: "@glass | Senior Software Engineer",
     description:
-      "Portfolio of @glass, a Senior Software Engineer specializing in JavaScript, TypeScript, React.js, Node.js, Laravel, and AWS.",
+      "Portfolio of @glass, a Senior Software Engineer specializing in JavaScript, TypeScript, React.js, Node.js, Python, AWS, Redis, and much more.",
     siteName: "@glass Portfolio",
     images: [
       {
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "@glass | Senior Software Engineer",
     description:
-      "Portfolio of @glass, a Senior Software Engineer specializing in JavaScript, TypeScript, React.js, Node.js, Laravel, and AWS.",
+      "Portfolio of @glass, a Senior Software Engineer specializing in JavaScript, TypeScript, React.js, Node.js, Python, AWS, Redis, and much more.",
     creator: "@glass",
     images: ["/favicon.png"],
   },
