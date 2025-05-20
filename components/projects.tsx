@@ -16,14 +16,14 @@ export default function Projects() {
     {
       title: "IHance",
       description: "An artificial intelligence suite for all things images.",
-      tags: ["Tanstack Start", "Neon", "Better Auth", "tRPC"],
+      tags: ["Tanstack Start", "Neon", "Better Auth", "tRPC", "Cloudflare", "Vercel"],
       codeLink: null,
       liveLink: "https://ihance.com",
     },
     {
       title: "A1BEAM",
       description: "A downloader that mixes the best of yt-dlp and gallery-dl. Supporting up to 350 sites!",
-      tags: ["NextJS", "AWS", "Neon", "Drizzle", "Bun", "Hono", "Better Auth", "PostgreSQL", "tRPC"],
+      tags: ["NextJS", "AWS", "Neon", "Drizzle", "Bun", "Hono", "Better Auth", "PostgreSQL", "tRPC", "Cloudflare"],
       codeLink: null,
       liveLink: "https://a1beam.dev",
     },

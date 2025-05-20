@@ -11,8 +11,11 @@ export default function Hero() {
         <div className="flex flex-col items-center space-y-4 text-center">
           <div className="space-y-2">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-              Hi, I&apos;m <span className="gradient-text">@glass</span>
+              Hi, I&apos;m <span className="gradient-text">Dawson</span>
             </h1>
+            <p className="text-sm font-medium text-muted-foreground">
+              I go by @glass on the internet.
+            </p>
             <p className="mx-auto max-w-[700px] text-xl text-muted-foreground md:text-2xl">
               <span className="js-only">
                 <span>Senior Software Engineer</span>
