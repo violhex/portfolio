@@ -1,8 +1,9 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowUpCircle, Download, Github, Mail } from "lucide-react"
+import { ArrowUpCircle, Github, Mail } from "lucide-react"
 import Link from "next/link"
+import { animate } from "framer-motion";
 
 export default function Hero() {
   return (
@@ -14,7 +15,7 @@ export default function Hero() {
               Hi, I&apos;m <span className="gradient-text">Dawson</span>
             </h1>
             <p className="text-sm font-medium text-muted-foreground">
-              I go by @glass on the internet.
+              I go by @glass on the internet
             </p>
             <p className="mx-auto max-w-[700px] text-xl text-muted-foreground md:text-2xl">
               <span className="js-only">
@@ -29,8 +30,20 @@ export default function Hero() {
             <p className="text-lg">Building scalable, secure, and efficient systems with over 5 years of experience</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
-            <Button asChild size="lg" className="rounded-full">
-              <Link href="#contact">Get In Touch</Link>
+            <Button
+              size="lg"
+              className="rounded-full"
+              onClick={async (e) => {
+                e.preventDefault();
+                // Use Framer Motion's animate for a delay (not for scroll itself)
+                await animate(0, 1, { duration: 0.5 }).finished; // 200ms delay
+                const contactSection = document.getElementById("contact");
+                if (contactSection) {
+                  contactSection.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
+            >
+              Get In Touch
             </Button>
           </div>
           <div className="flex gap-4 mt-6">
