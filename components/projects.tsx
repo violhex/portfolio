@@ -18,7 +18,7 @@ export default function Projects() {
       description: "An artificial intelligence suite for all things images.",
       tags: ["Tanstack Start", "Neon", "Better Auth", "tRPC", "Cloudflare", "Vercel"],
       codeLink: null,
-      liveLink: "https://ihance.com",
+      liveLink: "https://ihance.ai",
     },
     {
       title: "A1BEAM",
