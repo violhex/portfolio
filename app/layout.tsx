@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://localhost:3000'),
   title: "@glass | Senior Software Engineer",
   description:
-    "Portfolio of @glass, a Senior Software Engineer specializing in JavaScript, TypeScript, React.js, Node.js, Laravel, and AWS.",
+    "Portfolio of @glass, a Senior Software Engineer specializing in JavaScript, TypeScript, React.js, Node.js, Cloudflare, and AWS.",
   keywords: [
     "@glass",
     "Software Engineer",
@@ -28,11 +28,15 @@ export const metadata: Metadata = {
     "TypeScript",
     "React",
     "Node.js",
+    "Cloudflare",
     "AWS",
+    "Redis",
     "Next.js",
     "Tailwind CSS",
     "Shadcn UI",
     "Aceternity",
+    "Python",
+    "Tanstack"
   ],
   authors: [{ name: "@glass" }],
   creator: "@glass",
